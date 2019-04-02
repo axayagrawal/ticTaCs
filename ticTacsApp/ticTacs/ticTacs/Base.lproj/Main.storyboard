@@ -100,12 +100,34 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="2" height="-3"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgW-9x-qwv">
+                                <rect key="frame" x="149" y="788" width="126" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.45306339299999998" green="0.92534110920000001" blue="0.19251636250000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="19"/>
+                                <state key="normal" title="Play Again?">
+                                    <color key="titleColor" red="0.70100951310000004" green="0.1688109468" blue="0.81139964789999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetBoard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IfN-9Z-pj1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="FirstBtn" destination="c08-lZ-D4z" id="rSw-KQ-HBf"/>
+                        <outlet property="eighBtn" destination="k9n-VC-mJ8" id="Bsy-cO-uJd"/>
+                        <outlet property="fifthBtn" destination="StL-7u-Gpr" id="QSX-y4-hMr"/>
+                        <outlet property="fourthBtn" destination="bJa-sd-ZcL" id="ojP-dJ-XsD"/>
+                        <outlet property="ninethBtn" destination="h9h-Gk-e9F" id="5cY-aO-YUr"/>
+                        <outlet property="resetBtn" destination="VgW-9x-qwv" id="TaM-Id-0UN"/>
+                        <outlet property="secBtn" destination="0S4-wY-qbV" id="xHl-dy-KLm"/>
+                        <outlet property="sevBtn" destination="ACT-6U-HMw" id="6d3-Ar-iac"/>
+                        <outlet property="sixthBtn" destination="Rui-1E-EGB" id="X0y-2A-HAH"/>
                         <outlet property="statelbl" destination="YHM-MT-zXd" id="haZ-74-zJ6"/>
+                        <outlet property="thirdBtn" destination="ugO-Q7-XMH" id="UQY-U1-Haz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
